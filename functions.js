@@ -1,10 +1,10 @@
 window.onscroll = function() {myFunction()};
         
-var header = document.getElementById("tabs-div");
-var sticky = header.offsetTop;
+let header = document.getElementById("tabs-div");
+let sticky = header.offsetTop;
 
 function myFunction() {
-  if (window.scrollY > sticky) {
+  if (window.scrollY > 90) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
