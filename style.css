@@ -37,7 +37,8 @@ body {
 .tabs-text{
   color: var(--background-color);
   font-size: 28px;
-  margin-top: 15rem;
+  margin-top: 14rem;
+
 }
 
 .divider{
