@@ -187,6 +187,9 @@ body {
     padding: 3rem;
   }
 
+a{
+  text-decoration: none;
+}
   .tutorial-number{
     color: var(--black);
     align-self: center;
