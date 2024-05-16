@@ -65,7 +65,7 @@ body {
   border-radius: 2rem;
   text-align: center;
   border: 2px solid black;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #search-div{
@@ -254,6 +254,7 @@ body {
 
 a{
   text-decoration: none;
+  color: var(--background-color)
 }
   .tutorial-number{
     color: var(--black);
@@ -280,3 +281,46 @@ a{
     font-size: 18px;
     font-weight: 500;
   }
+
+  #foot-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #foot-note{
+    width: 100%;
+    height: 6.9rem;
+    border-top: 2px solid black;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+  }
+
+.foot-content{
+  font-size: 10px;
+  text-align: left;
+}
+
+#copyright{
+  display: flex;
+  align-self: end;
+  justify-content: end;
+}
+
+#foot-right{
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  margin-right: 4rem;
+  align-items: end;
+  padding-top: 4rem;
+}
+
+.foot-img{
+  height: 2rem;
+  align-self: end;
+  margin: 0.2rem;
+}
