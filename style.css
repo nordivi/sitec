@@ -179,6 +179,18 @@ body {
     width: 2rem;
   }
 
+  #tabeladocoiso{
+    width: 3rem;
+  }
+  #tutorial-metas{
+    margin: 2rem;
+    width: 14rem;
+    background-color: var(--primary-color);
+    height: 20rem;
+    border-radius: 4rem;
+    align-self: center;
+    border: 2px solid var(--black)
+  }
   #main-button{
     display: flex;
     flex-direction: row;
@@ -214,6 +226,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  #Dev{
+    width: 8rem;
+    margin-left: 2rem
   }
 
   #tutorial{
