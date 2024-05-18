@@ -142,6 +142,7 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    
   }
 
   #img-txt-title{
@@ -179,18 +180,43 @@ body {
     width: 2rem;
   }
 
-  #tabeladocoiso{
-    width: 3rem;
-  }
-  #tutorial-metas{
-    margin: 2rem;
-    width: 14rem;
+
+  #tutorial-objetivos{
+    margin: 4rem;
+    width: 24rem;
     background-color: var(--primary-color);
-    height: 20rem;
+    height: 15rem;
     border-radius: 4rem;
     align-self: center;
     border: 2px solid var(--black)
   }
+
+  #tutorial-metas{
+    margin: 4rem;
+    width: 24rem;
+    background-color: var(--primary-color);
+    height: 15rem;
+    border-radius: 4rem;
+    align-self: center;
+    border: 2px solid var(--black)
+  }
+
+  #componente-tutorial-metas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #circle-metas-tutorial{
+    border-radius: 50%;
+    background-color: var(--background-color);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+  }
+
   #main-button{
     display: flex;
     flex-direction: row;
@@ -226,6 +252,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  #conteudo-dev{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
   }
 
   #Dev{
@@ -277,6 +310,14 @@ a{
 }
   .tutorial-number{
     color: var(--black);
+    align-self: center;
+    padding-left: 1.2rem;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .tutorial-number-dev{
+    color: var(--white);
     align-self: center;
     padding-left: 1.2rem;
     font-weight: bold;
@@ -342,4 +383,9 @@ a{
   height: 2rem;
   align-self: end;
   margin: 0.2rem;
+}
+.balaorow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
