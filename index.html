@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/imgs/sitec-logo-no-bg.png">
     <link rel="stylesheet" href="style.css">
+
+    <script src= 
+"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"> 
+    </script> 
     <title>SITEC</title>
 </head>
 <body>
@@ -12,7 +16,6 @@
         <img src="./imgs/sitec-logo-no-bg.png" alt="Logo" id="main-logo">
         <div id="sitec-div">
             <p id="sitec-header">SITEC</p>
-            <div id="tag-divider"></div>
             <p id="sitec-tag-header">O futuro é agora!</p>
         </div>
         <div id="search-div">
@@ -20,7 +23,7 @@
         </div>
         <div id="buttons-header">
             <div class="button-header">
-                <img src="./imgs/user.svg" alt="User"> Login</div>
+                <img src="./imgs/user.svg" alt="User">Login</div>
             <div class="button-header">Contato</div>
             <a href="#sobre-nos" class="button-header">Sobre nós</a>
         </div>
@@ -35,13 +38,13 @@
         <p>CONTEÚDO EXPLICATIVO</p>
         </a>
         <div class="divider"></div>
-        <div class="tabs-text">
+        <a class="tabs-text"  href="#selos">
         <p >SELOS</p>
-        </div>
+        </a>
         <div class="divider"></div>
-        <div class="tabs-text">
+        <a class="tabs-text"  href="#contratar-servico">
         <p >CONTRATAR SERVIÇO</p>
-        </div>
+        </a>
     </div>
     <div class="content">
         <div class="container-img">
@@ -50,9 +53,9 @@
             <p id="img-txt-title">SITEC</p>
             <p id="img-txt-tag">O futuro é agora!</p>
             <p id="text-img">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. </p>
-            <button id="main-button">
+            <button class="main-button">
                 <img src="/imgs/sitec-logo-no-bg.png" alt="Logo" id="img-button">
-                <p id="button-text">Contrate já!</p>
+                <p class="button-text">Contrate já!</p>
             </button>
         </div>
         <div id="conteudo-explicativo" class="tab">
@@ -166,6 +169,73 @@
 
                 
     </div>
+
+    <div id="selos" class="tab">
+        <p class="tab-title">SELOS</p>
+        <div class="tab-content" id="selos-div">
+            <div id="selos-div" class="tab">
+                    <p style="color: black">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. </p>
+                    <!-- Exemplo -->
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contratar-servico" class="tab">
+        <p class="tab-title">CONTRATAR SERVIÇO</p>
+        <div class="tab-content" id="contratar-div">
+            <div id="formulario-contratar">
+                
+                <form id="form-contratar">
+                    <p id="title-formulario">FORMULÁRIO</p>
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <input type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div class="dropdown"> 
+                        <button class="btn btn-success dropdown-toggle"
+                                type="button" 
+                                id="multiSelectDropdown"
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"> 
+                            Select 
+                        </button> 
+                        <!-- <ul class="dropdown-menu" 
+                            aria-labelledby="multiSelectDropdown"> 
+                            <li> 
+                                <label> 
+                                <input type="checkbox" 
+                                        value="Java" class="checkbox"> 
+                                    Java 
+                                </label> 
+                            </li> 
+                            <li> 
+                                <label> 
+                                <input type="checkbox" 
+                                        value="C++" class="checkbox"> 
+                                    C++ 
+                                </label> 
+                            </li> 
+                            <li> 
+                                <label> 
+                                <input type="checkbox" 
+                                        value="Python" class="checkbox"> 
+                                    Python 
+                                </label> 
+                            </li> 
+                        </ul>  -->
+                    </div> 
+                    <button class="main-button" id="botao-consultoria">AGENDAR CONSULTORIA</button>
+                </form>
+            </div> 
+            <div id="right-contratar">
+                <div id="calendario-contratar"></div>
+                <div id="empresas-contratar"></div>
+            </div>
+        </div>
+        
+    </div>
+
     <div id="foot-note">
         <div id="foot-left">
             <a class="foot-content" href="#conteudo-explicativo">Conteúdo explicativo</a>
