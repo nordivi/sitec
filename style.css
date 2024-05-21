@@ -9,7 +9,8 @@
 body {
     background-color: var(--background-color);
     font-family: var(--project-font-family);
-    margin: 0
+    margin: 0;
+    width: 100%;
 }
 
 #header-div {
@@ -382,12 +383,208 @@ a{
 
 #formulario-contratar{
   width: 20rem;
-  height: 20rem;
+  height: 24rem;
   background-color: var(--primary-color);
   border-radius: 4rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
-  padding: 2rem;  
+  margin: 2rem
+}
+
+#form-contratar{
+  height: 100%;
+  width: 100%;
+}
+
+#div-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+#title-formulario{
+  font-weight: bold;
+  font-size: 22px
+}
+
+.contratar-class{
+  height: 2rem;
+  width: 16rem;
+  border-radius: 6rem;
+  border: none;
+  margin: 0px 1rem 0px 1rem;
+  padding-right: 1rem;
+}
+
+#contratar-servico{
+  width: 100%
+}
+
+#botao-agendar{
+  height: 1.9rem;
+  width: 12rem;
+  border: none;
+  border-radius: 6rem;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: 700;
+  margin-top: 1rem;
+  align-self: end;
+  margin-right: 12rem;
+}
+
+#botao-consultoria{
+  height: 1.9rem;
+  width: 12rem;
+  border: none;
+  border-radius: 6rem;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: 700;
+}
+
+#calendario-contratar{
+  background-color: var(--primary-color);
+  width: 36rem;
+  height: 19rem;
+  border-radius: 6rem;
+  border: none
+}
+
+#right-contratar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--black);
+  font-size: 18px;
+}
+
+#contratar-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contrate-txt{
+  align-self: start;
+  color: var(--black);
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 17rem;
+}
+
+.contrate-cal-txt{
+  align-self: start;
+  color: var(--black);
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 4rem;
+}
+
+#div-horario{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4rem;
+}
+
+.horario{
+  border: none;
+  border-radius: 3rem;
+  background-color: white;
+  padding: 0.2rem;
+  margin: 0.4rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.semana{
+  padding: 0.2rem;
+  margin: 0;
+  text-align: center;
+  width: 4rem;
+  font-weight: bold;
+}
+
+#div-calendario{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#empresas-sitec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.div-empresas{
+  width: 16rem;
+  height: 6rem;
+  background-color: var(--primary-color);
+  border-radius: 4rem;
+}
+
+#empresas-contratar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.logo-empresas{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6rem;
+  border: 2px solid black;
+
+
+}
+
+.div-empresas{
+  display: flex;
+  flex-direction: row;
+  padding: 0.6rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.txt-contratar{
+  font-weight: bold;
+  margin-left: 2rem;
+  color: white
+}
+
+#div-contato{
+  width: 58rem;
+  height: 38rem;
+  background-color: var(--primary-color);
+  border-radius: 8rem;
+}
+
+#contato-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.9rem
+}
+
+#txt-contato{
+  font-weight: bold;
+  font-size: 28px;
 }

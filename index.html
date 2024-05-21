@@ -24,7 +24,7 @@
         <div id="buttons-header">
             <div class="button-header">
                 <img src="./imgs/user.svg" alt="User">Login</div>
-            <div class="button-header">Contato</div>
+            <a class="button-header" href="#contato">Contato</a>
             <a href="#sobre-nos" class="button-header">Sobre nós</a>
         </div>
     </div>
@@ -198,11 +198,12 @@
             <div id="formulario-contratar">
                 
                 <form id="form-contratar">
+                    <div id="div-form">
                     <p id="title-formulario">FORMULÁRIO</p>
-                    <input type="text" name="name" id="name" placeholder="Nome">
-                    <input type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
-                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
-                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input class="contratar-class" type="text" name="name" id="name" placeholder="Nome">
+                    <input class="contratar-class" type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
+                    <input class="contratar-class" type="tel" name="telefone" id="telefone" placeholder="Telefone">
+                    <input class="contratar-class" type="email" name="email" id="email" placeholder="Email">
                     <div class="dropdown"> 
                         <button class="btn btn-success dropdown-toggle"
                                 type="button" 
@@ -211,37 +212,98 @@
                                 aria-expanded="false"> 
                             Select 
                         </button> 
-                        <!-- <ul class="dropdown-menu" 
-                            aria-labelledby="multiSelectDropdown"> 
-                            <li> 
-                                <label> 
-                                <input type="checkbox" 
-                                        value="Java" class="checkbox"> 
-                                    Java 
-                                </label> 
-                            </li> 
-                            <li> 
-                                <label> 
-                                <input type="checkbox" 
-                                        value="C++" class="checkbox"> 
-                                    C++ 
-                                </label> 
-                            </li> 
-                            <li> 
-                                <label> 
-                                <input type="checkbox" 
-                                        value="Python" class="checkbox"> 
-                                    Python 
-                                </label> 
-                            </li> 
-                        </ul>  -->
                     </div> 
                     <button class="main-button" id="botao-consultoria">AGENDAR CONSULTORIA</button>
-                </form>
+                </div></form>
             </div> 
             <div id="right-contratar">
-                <div id="calendario-contratar"></div>
-                <div id="empresas-contratar"></div>
+                <p class="contrate-txt">CALENDÁRIO</p>
+                <div id="calendario-contratar">
+                    <div id="div-calendario">
+                        <div id="div-horario">
+                            <div>
+                                <p class="semana">SEG</p>
+                                <p class="semana">24/06</p>
+                                <p class="horario">09:00</p>
+                                <p class="horario">10:00</p>
+                                <p class="horario">11:00</p>
+                                <p class="horario">11:30</p>
+                                <p class="horario">12:00</p>
+                                <p class="horario">13:00</p>
+                                <p class="horario">14:00</p>
+                            </div>
+                            <div>
+                                <p class="semana">TER</p>
+                                <p class="semana">24/06</p>
+                                <p class="horario">09:00</p>
+                                <p class="horario">10:00</p>
+                                <p class="horario">11:00</p>
+                                <p class="horario">12:00</p>
+                                <p class="horario">13:00</p>
+                                <p class="horario">13:30</p>
+                                <p class="horario">14:00</p>
+                            </div>
+                            <div>
+                                <p class="semana">QUA</p>
+                                <p class="semana">24/06</p>
+                                <p class="horario">08:30</p>
+                                <p class="horario">09:00</p>
+                                <p class="horario">10:00</p>
+                                <p class="horario">11:00</p>
+                                <p class="horario">12:00</p>
+                                <p class="horario">13:00</p>
+                                <p class="horario">14:00</p>
+                            </div>
+                            <div>
+                                <p class="semana">QUI</p>
+                                <p class="semana">24/06</p>
+                                <p class="horario">09:00</p>
+                                <p class="horario">10:00</p>
+                                <p class="horario">11:00</p>
+                                <p class="horario">12:00</p>
+                                <p class="horario">12:30</p>
+                                <p class="horario">13:00</p>
+                                <p class="horario">14:00</p>
+                            </div>
+                            <div>
+                                <p class="semana">SEX</p>
+                                <p class="semana">24/06</p>
+                                <p class="horario">08:00</p>
+                                <p class="horario">09:00</p>
+                                <p class="horario">10:00</p>
+                                <p class="horario">11:00</p>
+                                <p class="horario">12:00</p>
+                                <p class="horario">13:00</p>
+                                <p class="horario">14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="main-button" id="botao-agendar">AGENDAR</button>
+                <div id="empresas-contratar">
+                    <p class="contrate-cal-txt">EMPRESAS COM CERTIFICAÇÃO SITEC</p>
+                    <div id="empresas-sitec">
+                        <div class="div-empresas">
+                            <img src="./imgs/mc.jpg" alt="Mc Donalds" class='logo-empresas'>
+                            <p class="txt-contratar">MC Donalds</p>
+                        </div>
+                        <div class="div-empresas">
+                            <img src="./imgs/ciane.png" alt="Mc Donalds" class='logo-empresas'>
+                            <p class="txt-contratar">Shopping Pátio Cianê</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contato" class="tab">
+        <p class="tab-title">CONTATO</p>
+        <div class="tab-content" id="contato-div">
+            <div id="contato-div" class="tab">
+                <p id="txt-contato">FORMULÁRIO DE CONTATO</p>
+                <div id="div-contato"></div>
             </div>
         </div>
         
@@ -250,10 +312,10 @@
     <div id="foot-note">
         <div id="foot-left">
             <a class="foot-content" href="#conteudo-explicativo">Conteúdo explicativo</a>
-            <a class="foot-content">Selos</a>
-            <a class="foot-content">Contratar serviço</a>
+            <a class="foot-content"  href="#selos">Selos</a>
+            <a class="foot-content" href="#contratar-servico">Contratar serviço</a>
             <a href="#sobre-nos" class="foot-content">Sobre nós</a>
-            <a class="foot-content">Contato</a>
+            <a href="#contato" class="foot-content">Contato</a>
         </div>
         <p id="copyright">SITEC ®</p>
         <div id="foot-right">
