@@ -214,15 +214,22 @@
                     <input class="contratar-class" type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
                     <input class="contratar-class" type="tel" name="telefone" id="telefone" placeholder="Telefone">
                     <input class="contratar-class" type="email" name="email" id="email" placeholder="Email">
-                    <div class="dropdown"> 
-                        <button class="btn btn-success dropdown-toggle"
-                                type="button" 
-                                id="multiSelectDropdown"
-                                data-bs-toggle="dropdown" 
-                                aria-expanded="false"> 
-                            Select 
-                        </button> 
-                    </div> 
+                    <div class="multiselect">
+                        <div class="selectBox" onclick="showCheckboxes()">
+                          <select>
+                            <option>Tipo de lixo</option>
+                          </select>
+                          <div class="overSelect"></div>
+                        </div>
+                        <div id="checkboxes">
+                          <label for="one">
+                            <input type="checkbox" id="one" />Orgânico</label>
+                          <label for="two">
+                            <input type="checkbox" id="two" />Eletrônico</label>
+                          <label for="three">
+                            <input type="checkbox" id="three" />Industrial</label>
+                        </div>
+                      </div>
                     <button class="main-button" id="botao-consultoria">AGENDAR CONSULTORIA</button>
                 </div></form>
             </div> 

@@ -243,6 +243,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   #conteudo-dev{
@@ -470,6 +471,7 @@ a{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
 .contrate-txt{
@@ -625,7 +627,7 @@ a{
   padding: 0.5rem 1rem;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: var(--primary-color);
+  color: var(--background-color);
   font-size: calc(1.5rem + 0.3vw);
   font-weight: bolder;
 }
@@ -679,4 +681,46 @@ textarea{
 input{
   outline: none;
 
+}
+
+.multiselect {
+  height: 3.4rem;
+  width: 17rem;
+  border-radius: 6rem;
+  border: none;
+  margin: 0 1rem 0rem 1rem;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  border-radius: 2rem;
+  height: 2rem;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  position: relative;
+  background-color: white;
+  z-index: 5;
+  border-radius: 0.4rem
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: var(--background-color);
 }
