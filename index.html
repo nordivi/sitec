@@ -67,7 +67,17 @@
                         <p class="texts">A SITEC é uma empresa voltada para consultar clientes no descarte adequado do lixo, além de fornecer cerificações como forma de recompensa pelo consumo e despejo responsável ambientalmente.</p>
                     </div>
                     <div id="carrousel">
-                        <img src="./imgs/carrousel1.jpg" alt="" class="carrousel-img">
+                        <div class="carousel_items">
+                            <div class="carousel_item item1">
+                                <p class="carousel_text">Deixa que a gente cuida!</p>
+                            </div>
+                            <div class="carousel_item item2">
+                                <p class="carousel_text">Seja SITEC!</p>
+                            </div>
+                            <div class="carousel_item item3">
+                                <p class="carousel_text">Cuidando do ambiente!</p>
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <div  id="produto-right">
@@ -309,7 +319,15 @@
         <div class="tab-content" id="contato-div">
             <div id="contato-div" class="tab">
                 <p id="txt-contato">FORMULÁRIO DE CONTATO</p>
-                <div id="div-contato"></div>
+                <div id="div-contato">
+                    <form id="form-contato">
+                        <input class="contato-class" type="text" name="name" id="name" placeholder="Nome">
+                        <input class="contato-class" type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
+                        <input class="contato-class" type="text" name="assunto" id="assunto" placeholder="Assunto">
+                        <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                        <button id="button-contato">Enviar mensagem</button>
+                    </form>
+                </div>
             </div>
         </div>
         
