@@ -536,6 +536,11 @@ a{
   height: 6rem;
   background-color: var(--primary-color);
   border-radius: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.6rem;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #empresas-contratar{
@@ -553,14 +558,6 @@ a{
   border: 2px solid black;
 
 
-}
-
-.div-empresas{
-  display: flex;
-  flex-direction: row;
-  padding: 0.6rem;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .txt-contratar{
@@ -587,4 +584,20 @@ a{
 #txt-contato{
   font-weight: bold;
   font-size: 28px;
+}
+
+.selo-contratar{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  align-self: center;
+}
+
+.empresa-borda{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
 }
