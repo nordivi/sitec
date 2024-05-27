@@ -724,3 +724,9 @@ input{
 #checkboxes label:hover {
   background-color: var(--background-color);
 }
+
+#bodyImg
+{ background-image: url('imgs/sitec-logo-no-bg.png'); }
+img { opacity : 0.5; };
+
+
