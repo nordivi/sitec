@@ -57,6 +57,12 @@ body {
   justify-content: space-around;
 }
 
+#button-register{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 
 
 .button-header{
@@ -728,5 +734,3 @@ input{
 #bodyImg
 { background-image: url('imgs/sitec-logo-no-bg.png'); }
 img { opacity : 0.5; };
-
-
