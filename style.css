@@ -57,6 +57,12 @@ body {
   justify-content: space-around;
 }
 
+#button-register{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 
 
 .button-header{
