@@ -63,8 +63,6 @@ body {
   justify-content: space-around;
 }
 
-
-
 .button-header{
   height: 1.3rem;
   background-color: var(--background-color);
@@ -768,3 +766,13 @@ input{
   width: 40rem;
   text-align: justify;
 }
+
+#bodyImg { 
+  background-image: url('imgs/sitec-logo-no-bg.png'); 
+}
+
+#img-login {
+   opacity: 0.5; 
+   max-width: 100%;
+  height: auto;
+  };
