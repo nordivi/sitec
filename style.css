@@ -74,6 +74,13 @@ body {
   cursor: pointer;
 }
 
+#sobre-nos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
 #search-div{
   width: 13rem;
   background-color: var(--background-color);
@@ -132,7 +139,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -12rem
   }
 
   .container-img {
@@ -814,58 +820,81 @@ input{
     margin-left: 3rem;
   }
 
-  .consultores-img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 3rem;
-    
-  }
+  .consultores-img {
+    display: inline-block; 
+    position: relative; 
+    width: 100px; 
+    height: 100px;
+    overflow: hidden; 
+    border-radius: 50%; 
+}
 
-  .social-consultores{
+.consultores-img img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -50px; 
+}
+
+.social-consultores {
     width: 4rem;
     height: 4rem;
     border-radius: 3rem;
-  }
+}
 
-  .left-pp-consultores{
+.left-pp-consultores,
+.right-pp-consultores {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     width: 100%;
-  }
+    align-items: center;
+    margin-bottom: 3rem;
+}
 
-  .right-pp-consultores{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-  }
-
-  .div-social{
+.div-social {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 30%;
-  }
+    margin: 0 3rem 0 0;
+}
 
-  .txt-consultores{
+.txt-consultores {
     width: 60%;
-  }
+    text-align: justify;
+    margin: 0 3rem 0 3rem;
+}
 
-  .nome-consultor{
+.nome-consultor {
     color: black;
     font-size: 18px;
     font-weight: bold;
-  }
+}
 
-  .resumo-consultor{
+.resumo-consultor {
     color: black;
-    font-size: 16px
-  }
+    font-size: 16px;
+}
 
-  .div-consultores{
+.div-consultores {
     display: flex;
     flex-direction: column;
     width: 80%;
-  }
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div-consult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.consultores-titulo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
