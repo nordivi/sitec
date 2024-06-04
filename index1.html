@@ -18,16 +18,32 @@
             justify-content: center;
             align-items: center;
         }
-        img{
-            background-position: center center;
-            max-width: 100%;
-            height: auto;
+        .button-header {
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            top: 10px;
+            left: 10px;
+            font-weight: 600;
+            color: white;
+            font-size: 20px;
+            background-color: #186B8C;
+            height: 1.3rem;
+            width: 5rem;
+            margin-right: 3rem;
+            border-radius: 2rem;
+            text-align: center;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
+    <a class="button-header" href="index.html">
+        <img src="/imgs/arrow-back.svg" alt="Voltar"> <h5>Voltar</h5></a>
     <div>
-        <img src="/imgs/sitec-logo-no-bg.png">
+        <img src="/imgs/sitec-logo-no-bg.png" id="img-login">
     </div>
 </body>
 </html>

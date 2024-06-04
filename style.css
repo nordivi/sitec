@@ -63,8 +63,6 @@ body {
   justify-content: space-around;
 }
 
-
-
 .button-header{
   height: 1.3rem;
   background-color: var(--background-color);
@@ -134,7 +132,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -8rem
+    margin-top: -12rem
   }
 
   .container-img {
@@ -243,6 +241,10 @@ body {
     color: var(--black);
     font-weight: 300;
     font-size: 20px;
+    text-align: justify;
+    width: 40%;
+    margin-right: 4rem;
+    align-self: center;
   }
 
   #conteudo-div{
@@ -279,6 +281,23 @@ body {
 
   .carrousel-img{
     width: 36rem;
+  }
+
+  .texts-produto{
+    color: var(--black);
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    margin-right: 4rem;
+    align-self: center;
+  }
+
+  .div-bordas-metas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 
   #explicacao-produto{
@@ -382,11 +401,7 @@ a{
   align-self: end;
   margin: 0.2rem;
 }
-.balaorow{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 
 #formulario-contratar{
   width: 20rem;
@@ -731,6 +746,126 @@ input{
   background-color: var(--background-color);
 }
 
-#bodyImg
-{ background-image: url('imgs/sitec-logo-no-bg.png'); }
-img { opacity : 0.5; };
+.div-selos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img-selo{
+  width: 16rem;
+  height: 16rem;
+}
+
+.img-certificado{
+  width: 20rem;
+  height: 16rem;
+}
+
+.titulo-selo{
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.tab-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.text-selo{
+  width: 40rem;
+  text-align: justify;
+}
+
+#bodyImg { 
+  background-image: url('imgs/sitec-logo-no-bg.png'); 
+}
+
+#img-login {
+   opacity: 0.5; 
+   max-width: 100%;
+  height: auto;
+  }
+
+  .historia-titulo{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #nossa-historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-top: 2rem;
+  }
+  .balaorow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+  }
+
+  .consultores-img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    
+  }
+
+  .social-consultores{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+  }
+
+  .left-pp-consultores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .right-pp-consultores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .div-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+  }
+
+  .txt-consultores{
+    width: 60%;
+  }
+
+  .nome-consultor{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .resumo-consultor{
+    color: black;
+    font-size: 16px
+  }
+
+  .div-consultores{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
