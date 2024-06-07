@@ -11,6 +11,8 @@ body {
     font-family: var(--project-font-family);
     margin: 0;
     width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 #header-div {
@@ -824,6 +826,7 @@ input{
 
 #bodyImg { 
   background-image: url('imgs/sitec-logo-no-bg.png'); 
+  
 }
 
 #img-login {
