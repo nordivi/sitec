@@ -25,7 +25,7 @@
             <a class="button-header" href="index1.html">
             <img src="./imgs/user.svg" alt="User">Login</a>
             <a class="button-header" href="#contato">Contato</a>
-            <a href="#sobre-nos" class="button-header">Sobre nós</a>
+            <a href="#sobre-nos" class="button-header" id="sobre-nos-but">Sobre nós</a>
         </div>
     </div>
     <div id="tabs-div" class="tabs-div">
@@ -52,7 +52,7 @@
         <div class="top-right">
             <p id="img-txt-title">SITEC</p>
             <p id="img-txt-tag">O futuro é agora!</p>
-            <p id="text-img">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. </p>
+            <p id="text-img">O projeto Sitec tem como modelo de negócio a implantação de selos e certificados para empresas que realizem o descarte de seus rejeitos de forma adequada. </p>
             <a id="main-button" href="#contratar-servico">
                 <img src="/imgs/sitec-logo-no-bg.png" alt="Logo" id="img-button">
                 <p id="button-text">Contrate já!</p>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div  id="produto-right">
-                    <p class="titles">FAÇA PARTE!</p>
+                    <p class="titles-parte">FAÇA PARTE!</p>
                     <div id="tutorial">
                         <div class="tutorial-item">
                             <div class="componente-tutorial">
@@ -137,48 +137,37 @@
                 <div id="nossa-historia" class="tab" >
                     
                     <img src="./imgs/Logo-dev-semfundo.png" width="200px">
-                    <p class="historia-titulo" >Nossa história</p>
+                    
                     
                 </div>
             </div>
                 <div class="balaorow">  
+                    <div id="nossa-historia-texto">
+                    <p class="historia-titulo" >NOSSA HISTÓRIA</p>
                         <p class="texts">A SITEC nasceu do grupo de consultoria Dev4Green motivado pela visão de melhoria urgente no descarte de lixo nas cidades de Sorocaba e Votorantim por grandes empresas. Apesar da Prefeitura ter os meios para um descarte adequado, nem todas as grandes empresas sabem a forma correta ou como fazer esse descarte de forma adequado. Dessa forma, surgimos com a SITEC como meio de intermediar e nos responsabilizar pelo descarte de diferentes tipos de lixo de grandes empresas de Sorocaba e Votorantim.</p>
-                        <img src="./imgs/img-nossa-historia" width="600px">
+                    </div><img src="./imgs/img-nossa-historia" width="600px">
                 </div>
             </div>
             <div class="div-bordas-metas">
             <div id="tutorial-metas" >
-                    <div class="componente-tutorial">
                             <p class="tutorial-number-dev">Metas</p>
-                    </div>
-                    <div class="componente-tutorial">
-                            <p class="tutorial-number-dev">1 Meta</p>
-                    </div>
-                    <div class="componente-tutorial">
-                            <p class="tutorial-number-dev">2 Meta</p>
-                    </div>
-                    <div class="componente-tutorial">
-                            <p class="tutorial-number-dev">3 Meta</p>
-                    </div>
+                            <p class="tutorial-number-dev-txt">1. Adesão de empresas.</p>
+
+                            <p class="tutorial-number-dev-txt">2. Parcerias institucionais.</p>
+                            <p class="tutorial-number-dev-txt">3. Expansão regional.</p>
             </div>
          
             <div id="tutorial-objetivos">
-                        <div class="componente-tutorial">
+
                                 <p class="tutorial-number-dev">Objetivos</p>
-                        </div>
-                        <div class="componente-tutorial">
-                                <p class="tutorial-number-dev">1 Objetivo</p>
-                        </div>
-                        <div class="componente-tutorial">
-                                <p class="tutorial-number-dev">2 Objetivo</p>
-                        </div>
-                        <div class="componente-tutorial">
-                                <p class="tutorial-number-dev">3 Objetivo</p>
-                        </div>
+
+                                <p class="tutorial-number-dev-txt">1. Campanha de conscientização ambiental.</p>
+                                <p class="tutorial-number-dev-txt">2. Plataforma de agendamento otimizada.</p>
+                                <p class="tutorial-number-dev-txt">3. Eventos de networking sustentável.</p>
             </div>
             </div>
             <div id="div-consult">
-                <p class="consultores-titulo" >Consultores</p>
+                <p class="consultores-titulo" >CONSULTORES</p>
                 <div class="div-consultores">
                     <div class="left-pp-consultores">
                         <img class="consultores-img" src="./imgs/Mídia.jpg" alt="Ryan">
@@ -186,13 +175,13 @@
                             <p class="nome-consultor">RYAN CARLO NEGRETTI PEREIRA</p>
                             <p class="resumo-consultor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta lectus eu diam aliquam, at scelerisque enim pretium. Nulla tempor augue nunc, sed tincidunt purus lobortis ut. Donec convallis justo nec molestie interdum.</p>
                         </div>
-                        <div class="div-social">
+                        <div class="div-social div-social-left">
                             <a href=""><img class="social-consultores" class="social-consultores" src="./imgs/linkedin.svg" alt="Linkedin"></a>
                             <a href="https://github.com/RyanCarloNegrettiPereira"><img class="social-consultores" src="./imgs/git.svg" alt="GitHub"></a>
                         </div>
                     </div>
                     <div class="right-pp-consultores">
-                        <div class="div-social">
+                        <div class="div-social div-social-right">
                             <a href=""><img class="social-consultores" src="./imgs/linkedin.svg" alt="Linkedin"></a>
                             <a href="https://github.com/GLFspedine"><img class="social-consultores" src="./imgs/git.svg" alt="GitHub"></a>
                         </div>
@@ -209,13 +198,13 @@
                             <p class="nome-consultor">PEDRO SILVA MARTINS</p>
                             <p class="resumo-consultor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta lectus eu diam aliquam, at scelerisque enim pretium. Nulla tempor augue nunc, sed tincidunt purus lobortis ut. Donec convallis justo nec molestie interdum.</p>
                         </div>
-                        <div class="div-social">
+                        <div class="div-social div-social-left">
                             <a href=""><img class="social-consultores" src="./imgs/linkedin.svg" alt="Linkedin"></a>
                             <a href="https://github.com/Pedro8k"><img class="social-consultores" src="./imgs/git.svg" alt="GitHub"></a>
                         </div>
                     </div>
                     <div class="right-pp-consultores">
-                        <div class="div-social">
+                        <div class="div-social div-social-right">
                             <a href="https://www.linkedin.com/in/victor-hugo-werneck-nordi-65756019a"><img class="social-consultores" src="./imgs/linkedin.svg" alt="Linkedin"></a>
                             <a href="https://github.com/nordivi"><img class="social-consultores" src="./imgs/git.svg" alt="GitHub"></a>
                         </div>
@@ -304,7 +293,6 @@
                             <input type="checkbox" id="three" />Industrial</label>
                         </div>
                       </div>
-                    <button class="main-button" id="botao-consultoria">AGENDAR CONSULTORIA</button>
                 </div></form>
             </div> 
             <div id="right-contratar">

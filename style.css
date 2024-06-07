@@ -168,8 +168,8 @@ body {
     font-size: 40px;
     text-align: center;
     margin-left: 1rem;
-    margin-top: 3rem;
     align-items: center;
+    margin-bottom: -1.5rem;
   }
 
   #text-img{
@@ -178,7 +178,10 @@ body {
     justify-content: center;
     display: flex;
     font-size: 18px;
+    text-align: justify;
   }
+
+ 
 
   #img-button{
     width: 2rem;
@@ -196,11 +199,25 @@ body {
 
   #tutorial-metas{
     margin: 4rem;
-    width: 24rem;
+    width: 16rem;
+    background-color: var(--primary-color);
+    height: 15rem;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #tutorial-objetivos{
+    margin: 4rem;
+    width: 22rem;
     background-color: var(--primary-color);
     height: 15rem;
     border-radius: 4rem;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   #componente-tutorial-metas{
@@ -249,7 +266,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-align: justify;
-    width: 40%;
+    width: 100%;
     margin-right: 4rem;
     align-self: center;
   }
@@ -341,11 +358,9 @@ a{
   }
 
   .tutorial-number-dev{
-    color: var(--white);
     align-self: center;
-    padding-left: 1.2rem;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 26px;
   }
 
   .componente-tutorial{
@@ -373,7 +388,7 @@ a{
   }
 
   #foot-note{
-    width: 100.3%;
+    width: 100%;
     height: 6.9rem;
     border-top: 2px solid black;
     background-color: var(--primary-color);
@@ -384,7 +399,7 @@ a{
   }
 
 .foot-content{
-  font-size: 10px;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -432,6 +447,7 @@ a{
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  padding: 0 1.3rem 0 1.3rem
 }
 
 #title-formulario{
@@ -492,6 +508,7 @@ a{
   align-items: center;
   color: var(--black);
   font-size: 18px;
+  margin-top: 2rem;
 }
 
 #contratar-div{
@@ -579,6 +596,7 @@ a{
   justify-content: space-around;
   width: 80%;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .logo-empresas{
@@ -658,6 +676,15 @@ a{
   color: var(--background-color);
   font-size: calc(1.5rem + 0.3vw);
   font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+
+.titles-parte{
+  color: var(--black);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
 .item1 {
@@ -803,8 +830,8 @@ input{
 
   .historia-titulo{
     color: black;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 800;
   }
 
   #nossa-historia{
@@ -819,6 +846,14 @@ input{
     display: flex;
     flex-direction: row;
     margin-left: 3rem;
+  }
+
+  #nossa-historia-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
   }
 
   .consultores-img {
@@ -896,6 +931,27 @@ input{
 
 .consultores-titulo {
     color: black;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.tutorial-number-dev-txt{
+  color: var(--background-color);
+  align-self: center;
+  font-weight: 400;
+  font-size: 16px;
+  align-self: start;
+  margin-left: 1.8rem
+}
+
+.div-social-left{
+  margin-left: -8rem
+}
+
+.div-social-right{
+  margin-right: -8rem
+}
+
+#sobre-nos-but{
+  margin-bottom: 0.3rem
 }
