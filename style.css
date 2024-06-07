@@ -398,6 +398,10 @@ a{
     padding-left: 2rem;
   }
 
+  textarea{
+    resize: none;
+  }
+
 .foot-content{
   font-size: 12px;
   text-align: left;
