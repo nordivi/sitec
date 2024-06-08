@@ -43,3 +43,11 @@ function showCheckboxes() {
     expanded = false;
   }
 }
+
+const horarios = document.querySelectorAll('.horario');
+
+    horarios.forEach(horario => {
+        horario.addEventListener('click', () => {
+            horario.classList.toggle('clicked');
+        });
+    });

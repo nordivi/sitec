@@ -15,6 +15,14 @@ body {
     max-width: 100%;
 }
 
+.meta-obj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
 #header-div {
     background-color: var(--primary-color);
     height: 6rem;
@@ -190,20 +198,10 @@ body {
   }
 
 
-  #tutorial-objetivos{
-    margin: 4rem;
-    width: 24rem;
-    background-color: var(--primary-color);
-    height: 15rem;
-    border-radius: 4rem;
-    align-self: center;
-  }
-
   #tutorial-metas{
-    margin: 4rem;
-    width: 16rem;
+    width: 20rem;
     background-color: var(--primary-color);
-    height: 15rem;
+    height: 10rem;
     border-radius: 4rem;
     display: flex;
     flex-direction: column;
@@ -211,10 +209,9 @@ body {
   }
 
   #tutorial-objetivos{
-    margin: 4rem;
-    width: 22rem;
+    width: 29rem;
     background-color: var(--primary-color);
-    height: 15rem;
+    height: 10rem;
     border-radius: 4rem;
     align-self: center;
     display: flex;
@@ -559,6 +556,12 @@ a{
   text-align: center;
   font-weight: 500;
   cursor: pointer;
+}
+
+
+.clicked {
+  background-color: var(--secondary-color);
+  color:white 
 }
 
 .semana{
@@ -943,9 +946,9 @@ input{
 }
 
 .tutorial-number-dev-txt{
-  color: var(--background-color);
+  color: white;
   align-self: center;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   align-self: start;
   margin-left: 1.8rem
