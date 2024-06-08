@@ -794,6 +794,7 @@ input{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-right: 2rem;
 }
 
 .img-selo{
@@ -819,7 +820,7 @@ input{
   align-items: center;
   width: 100%;
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 5rem;
 }
 
 .text-selo{
