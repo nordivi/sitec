@@ -162,7 +162,7 @@ body {
     font-size: 48px;
     color: var(--black);
     font-family: var(--project-font-family);
-    font-weight: bold;
+    font-weight: 900;
   }
 
   #img-txt-tag{
