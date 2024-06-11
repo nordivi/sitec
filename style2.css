@@ -46,11 +46,13 @@ form{
     opacity: 0.5; 
     max-width: 100%;
    height: auto;
+   position: absolute;
    }
 
 .campos-login{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -63,7 +65,8 @@ form{
 
 .input-campo{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -89,8 +92,8 @@ form{
     align-items: center;
     margin-top: -3rem;
     position: absolute;
-    top: 105%;
-    left: 56%;
+    top: 107%;
+    left: 55%;
   }
 
   a{
@@ -111,7 +114,8 @@ form{
 
 .campos-email{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -124,7 +128,8 @@ form{
 
 .input-email{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -140,7 +145,8 @@ form{
 
 .campos-senha{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -153,7 +159,8 @@ form{
 
 .input-senha{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -169,7 +176,8 @@ form{
 
 .campos-confirme{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -182,7 +190,8 @@ form{
 
 .input-confirme{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -207,7 +216,7 @@ form{
     width: 20rem;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
 #user-registrar{
@@ -221,20 +230,28 @@ form{
     width: 20rem;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
 #img-user{
     width: 1.3rem;
-    margin-left: 2rem;
-    margin-top: 0.4rem
+    margin-left: 6rem;
 }
 
 #entrar{
     color: black;
+    font-weight: bold;
     font-size: 18px;
-    margin-left: 2rem;
-    margin-top: 0.6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#cadastrar{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 7rem;
+    margin-top: 0.9rem;
 }
 
 .selected{
@@ -243,7 +260,8 @@ form{
 
 .campos-email-selecionado{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -256,7 +274,8 @@ form{
 
 .input-email-selecionado{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -272,7 +291,8 @@ form{
 
 .campos-senha-selecionado{
     background-color: rgba(128, 128, 128, 0.432);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 2rem;
     padding-left: 1rem;
@@ -285,7 +305,8 @@ form{
 
 .input-senha-selecionado{
     background-color: rgba(128, 128, 128, 0);
-    color:black;
+    color: white;
+    font-weight: bold;
     width: 18rem;
     height: 1rem;
     padding-left: 1rem;
@@ -311,6 +332,28 @@ form{
     align-items: center;
     margin-top: -3rem;
     position: absolute;
-    top: 87%;
-    left: 26%;
+    top: 89%;
+    left: 24%;
+}
+
+#entrar-div{
+    background-color: #186B8C;
+    width: 21rem;
+    height: 15rem;
+    margin-top: 6rem;
+    margin-right: 26rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    z-index: 3;
+}
+
+#entrar-div-2{
+    background-color: #186B8C;
+    width: 21rem;
+    z-index: 3;
+    height: 28.4rem;
+    margin-top: 6rem;
+    margin-right: -22rem;
+    border-radius: 2rem;
+    border: 2px solid white
 }
